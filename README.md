@@ -1,22 +1,16 @@
-# sv
+# Who Among Us
 
-Everything you need to build a Svelte project, powered by [`sv`](https://github.com/sveltejs/cli).
+Little project in Svelte to display a XLSX file with charts with the reponse of the game Who Among Us.
 
-## Creating a project
+## Starting
 
-If you're seeing this, you've probably already done this step. Congrats!
+### Installing dependencies:
 
 ```bash
-# create a new project in the current directory
-npx sv create
-
-# create a new project in my-app
-npx sv create my-app
+npm install
 ```
 
-## Developing
-
-Once you've created a project and installed dependencies with `npm install` (or `pnpm install` or `yarn`), start a development server:
+### Starting the development server:
 
 ```bash
 npm run dev
@@ -25,14 +19,11 @@ npm run dev
 npm run dev -- --open
 ```
 
-## Building
+## How to use
 
-To create a production version of your app:
-
-```bash
-npm run build
-```
-
-You can preview the production build with `npm run preview`.
-
-> To deploy your app, you may need to install an [adapter](https://svelte.dev/docs/kit/adapters) for your target environment.
+- Import XLSX file from a Google Form
+- Choose a color for each player (optional)
+- Press "Commencer"
+- The app will display the question
+- Press the right arrow key to advance
+- Press the left arrow key to go back
