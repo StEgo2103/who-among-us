@@ -1,6 +1,6 @@
 <script lang="ts">
 	import Chart from 'chart.js/auto';
-	import { onMount, onDestroy } from 'svelte';
+	import { onMount } from 'svelte';
 	import { playersStore, getIndexOfPlayer } from '$lib/stores/players.store';
 	import { sheetsStore } from '$lib/stores/sheets.store';
 

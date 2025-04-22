@@ -4,6 +4,10 @@ Little project in Svelte to display a XLSX file with charts with the reponse of 
 
 ## Starting
 
+Go to [https://who-among-us.deltort.net](https://who-among-us.deltort.net) to use the website online.
+
+## Starting in local
+
 ### Installing dependencies:
 
 ```bash
@@ -27,3 +31,11 @@ npm run dev -- --open
 - The app will display the question
 - Press the right arrow key to advance
 - Press the left arrow key to go back
+
+## Technologies
+
+- Svelte
+- SvelteKit
+- Tailwind CSS
+- Charts.js
+- Netlify
